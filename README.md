@@ -1,16 +1,51 @@
-# React + Vite
+# Basic React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fundamental React application built with [Vite](https://vitejs.dev/), designed for learning and practicing core React concepts.
 
-Currently, two official plugins are available:
+## Features & Components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project contains several modular components demonstrating basic React capabilities:
+- **Form**: Demonstrates form rendering and basic event handling (`onClick`, `preventDefault()`).
+- **Product & ProductTab**: Shows how to structure and render lists of components, passing data via `props`.
+- **Button**: An example of a simple interactive UI element.
+- **Title, Description, Message**: Basic presentational components.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19**
+- **Vite** (for fast development and building)
+- **Vanilla CSS** (for basic styling)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+Make sure you have Node.js installed on your machine.
+
+### Installation
+
+1. Clone the repository or download the source code.
+2. Navigate to the project directory:
+   ```bash
+   cd basic-react-app
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the App
+
+To start the local development server:
+
+```bash
+npm run dev
+```
+
+Then, open the URL provided in the terminal (usually `http://localhost:5173/`) in your browser to view the application.
+
+## Scripts
+
+- `npm run dev`: Starts the Vite development server.
+- `npm run build`: Bundles the app into static files for production.
+- `npm run lint`: Runs ESLint to catch and fix code issues.
+- `npm run preview`: Bootstraps a local web server to preview the production build.
